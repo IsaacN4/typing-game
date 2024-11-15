@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+body {
+    background-image: url(../img/wildwestbg1.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #f0f8ff;
+    font-family:'Nunito Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    text-align: center;
+    background-color: #ff6347;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.game-title {
+    color: #fff;
+}
+
+.game-info p {
+    margin: 10px 0;
+}
+
+.time-style {
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #55121b;
+}
+
+.score-style {
+    font-size: 1.2rem;
+    color: #55121b;
+}
+
+.word-display {
+    font-size: 2rem;
+    background-color: #ededed;
+    color: #000000;
+    margin: 10px 0;
+    padding: 10px 0;
+    user-select: none;
+    min-height: 30px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.word-input {
+    padding: 10px;
+    width: 80%;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #ededed;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.restart-btn {
+    background-color: #4caf50;
+    transition: background-color 0.3s;
+}
+
+.restart-btn:hover {
+    background-color: #45a049;
+}
+
+.score-history {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    min-height: 38px;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 55px;
+    background-color: #ff745b;
+    border-radius: 5px;
+    color: #55121b;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.score-history::-webkit-scrollbar {
+    display: none;
+}
+
+.score-header {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #55121b;
+}

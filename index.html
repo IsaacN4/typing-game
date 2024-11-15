@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, intial-scale=1">
+    <meta name="author" content="Isaac Nunez">
+    <meta name="description" content="Social Media">
+    <meta name="keywords" content="html, css, javascript">
+    <title>Keyboard Game</title>
+    <link rel="icon" href="./assets/img/favicon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/reset.css" media="all">
+    <link rel="stylesheet" href="./assets/css/style.css" media="all">
+    <script src="./assets/js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="game-container">
+        <h1 class="game-title">High Noon Typer</h1>
+        <div class="game-info">
+            <p class="time-style">Time Left: <span class="timer"></span>s</p>
+            <p class="score-style">Score: <span class="score">0</span></p>
+        </div>
+        <p class="word-display"></p>
+        <input type="text" class="word-input" placeholder="Type the word here..." disabled>
+        <div class="buttons">
+            <button class="btn start-btn">Start Game</button>
+            <button class="btn restart-btn" style="display: none;">Restart</button>
+        </div>
+        <h2 class="score-header">Score History</h2>
+        <div class="score-history"></div>
+    </div>
+    <audio class="background-music" src="./assets/sound/wildwest.mp3" loop></audio>
+    <audio class="end-game-sound" src="./assets/sound/wildwestend.mp3"></audio>
+    <audio class="start-game-sound" src="./assets/sound/wildweststart.mp3"></audio>
+  </body>
+</html>
