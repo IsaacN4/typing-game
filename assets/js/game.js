@@ -8,7 +8,7 @@ let score = 0;
 let interval;
 let currentWord;
 let currentIndex = 0;
-const startingTimer = 3;
+const startingTimer = 15;
 const scores = loadScoresFromLocalStorage();
 
 const wordDisplay = document.querySelector('.word-display');
