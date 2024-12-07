@@ -43,7 +43,7 @@ body {
 }
 
 .word-display {
-    font-size: 2rem;
+    font-size: 2.2rem;
     background-color: #ededed;
     color: #000000;
     margin: 10px 0;
@@ -88,18 +88,36 @@ body {
     background-color: #45a049;
 }
 
+.score-container {
+    width: 300px;
+    background-color: rgba(255, 99, 71, 0.8);
+    color: #55121b;
+    position: absolute;
+    height: 100vh;
+    text-align: center;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+
+    h1 {
+        color: #fff;
+    }
+}
+
+.score-hidden {
+    right: -320px;
+}
+
 .score-history {
-    margin-top: 10px;
     font-size: 1.2rem;
     min-height: 38px;
     overflow: hidden;
     overflow-y: scroll;
-    height: 55px;
-    background-color: #ff745b;
-    border-radius: 5px;
-    color: #55121b;
     font-weight: 600;
-    padding-top: 10px;
+    padding: 20px 15px 20px 15px;
+
+    p {
+        margin-top: 1rem;
+    }
 }
 
 .score-history::-webkit-scrollbar {

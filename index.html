@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/reset.css" media="all">
     <link rel="stylesheet" href="./assets/css/style.css" media="all">
-    <script src="./assets/js/script.js" defer></script>
+    <script type="module" src="./assets/js/game.js" defer></script>
   </head>
   <body>
     <div class="game-container">
@@ -29,8 +29,13 @@
             <button class="btn start-btn">Start Game</button>
             <button class="btn restart-btn" style="display: none;">Restart</button>
         </div>
-        <h2 class="score-header">Score History</h2>
-        <div class="score-history"></div>
+    </div>
+    <div class="score-container">
+      <h1>High Scores</h1>
+      <div class="score-history">
+        <h2 class="score-header"></h2>
+
+      </div>
     </div>
     <audio class="background-music" src="./assets/sound/wildwest.mp3" loop></audio>
     <audio class="end-game-sound" src="./assets/sound/wildwestend.mp3"></audio>
