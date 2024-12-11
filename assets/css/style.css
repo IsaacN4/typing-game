@@ -92,7 +92,7 @@ body {
     width: 300px;
     background-color: rgba(255, 99, 71, 0.8);
     color: #55121b;
-    position: absolute;
+    position: fixed;
     height: 100vh;
     text-align: center;
     right: 0;
